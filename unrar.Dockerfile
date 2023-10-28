@@ -8,6 +8,8 @@ ARG UNRAR_VERSION=6.2.10
 
 RUN set -ex && \
     apk add --no-cache \
+        curl \
+        tar \
         build-base \
         gcc \
         g++ \
