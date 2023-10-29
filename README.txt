@@ -1,0 +1,1 @@
+smanga docker base

@@ -1,1 +1,0 @@
-# smanga-base-docker
