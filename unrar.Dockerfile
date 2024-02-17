@@ -4,7 +4,7 @@ ARG ALPINE_VERSION
 
 FROM alpine:${ALPINE_VERSION} AS Builder
 
-ARG UNRAR_VERSION=6.2.10
+ARG UNRAR_VERSION=6.2.12
 
 RUN set -ex && \
     apk add --no-cache \
